@@ -1,0 +1,33 @@
+.body  {
+    background-image:url(../images/fondo\ de\ figma.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 4000%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Fondo-de-subir{
+    background-color: darkgrey;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.Fondo-de-divisiones{
+    background-color: darkgrey;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.Fondo-de-estadisticas{
+    background-color: darkgrey;
+
+}
+.Fondo-de-Mimusica{
+    background-color: darkgrey;
+}

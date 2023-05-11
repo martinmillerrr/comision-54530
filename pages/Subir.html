@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body class="Fondo-de-subir">
+    <nav class="menu" style="color: firebrick;">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./Subir.html">Subir </a></li>
+            <li><a href="./Divisiones.html">Divisiones</a></li>
+            <li><a href="./Estadisticas.html">Estadisticas</a></li>
+            <li><a href="./Mi-musica.html">Mi musica</a></li>
+        </ul>
+    </nav>
+    <h1>Servicios</h1>
+
+    <select>
+        <option value="opcion1">Snapchat Music</option>
+        <option value="opcion2">Spotify</option>
+        <option value="opcion3">Apple Music</option>
+        <option value="opcion4">Dezzer</option>
+        <option value="opcion5">Tidal</option>
+        <option value="opcion6">Soundcloud</option>
+        <option value="opcion7">Claro Music</option>
+        <option value="opcion8">Instagram Music</option>
+        <option value="opcion9">Youtube Music</option>
+    </select>
+    <h2>Número de canciones</h2>
+    <select>
+        <option value="opcion1">1 canción</option>
+        <option value="opcion1">2 canciones</option>
+        <option value="opcion2">3 canciones</option>
+        <option value="opcion3">4 canciones</option>
+        <option value="opcion4">5 canciones </option>
+        <option value="opcion5">6 canciones</option>
+        <option value="opcion6">7 canciones</option>
+        <option value="opcion7">8 canciones</option>
+        <option value="opcion8">9 canciones</option>
+        <option value="opcion9">10 canciones</option>
+    </select>
+    <h2>Esta cancion ha sido lanzada previamente?</h2>
+    <select>
+        <option value="opcion1">Sí</option>
+        <option value="opcion2">No</option>
+    </select>
+    <h2>Nombre de la banda o artista</h2>
+    <form>
+        <label for="nombre">Name:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </form>
+    <h2>El artista ya esta registrado en las plataformas?</h2>
+    <select>
+        <option value="opcion1">Sí</option>
+        <option value="opcion1">No</option>
+        <option value="opcion1">Crear Nuevo Perfil</option>
+    </select>
+    <h2>Fecha de lanzamiento</h2>
+    <form>
+        <label for="nombre">Día:</label>
+        <input type="text" id="Día" name="Día" required>
+        <label for="nombre">Mes:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="nombre">Año:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </form>
+    <h2>Idioma</h2>
+    <select>
+        <option value="opcion1">Español</option>
+        <option value="opcion2">Ingles</option>
+        <option value="opcion3">Portugues</option>
+        <option value="opcion4">Latin</option>
+        <option value="opcion5">Aleman</option>
+        <option value="opcion6">Ruso</option>
+    </select>
+    <h2>Género</h2>
+    <select>
+        <option value="opcion1">Trap</option>
+        <option value="opcion2">Rock</option>
+        <option value="opcion3">Lo-fi</option>
+        <option value="opcion4">Jazz</option>
+        <option value="opcion5">Funk</option>
+        <option value="opcion6">Pop</option>
+        <option value="opcion7">House</option>
+        <option value="opcion8">Techno</option>
+        <option value="opcion9">Electronica</option>
+        <option value="opcion10">Dancehall</option>
+        <option value="opcion11">Reggaeton</option>
+        <option value="opcion12">Musica clasica</option>
+    </select>
+    <h2>Título o nombre de la cancion</h2>
+    <form>
+        <label for="nombre">Título:</label>
+        <input type="text" id="Titulo" name="Titulo" required>
+    </form>
+    <h2>Subir Portada (1080x1080)</h2>
+    <form action="tu_script_de_procesamiento.php" method="post" enctype="multipart/form-data">
+        <label for="imagen">Selecciona una imagen:</label>
+        <input type="file" id="imagen" name="imagen">
+        <input type="submit" value="Subir imagen">
+    </form>
+    <h2>Subir Pista</h2>
+    <form action="tu_script_de_procesamiento.php" method="post" enctype="multipart/form-data">
+        <label for="imagen">Seleccione un Archivo Wav o Mp3:</label>
+        <input type="file" id="Pista" name="Pista">
+        <input type="submit" value="Subir pista">
+    </form>
+    <h2>Compositor</h2>
+    <select>
+        <option value="opcion1">Yo escribi solo la letra</option>
+        <option value="opcion2">Mas de un compositor</option>
+    </select>
+    <h2>Nombres reales de los compositores</h2>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="Día" name="Día" required>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </form>
+</body>
+
+</html>
