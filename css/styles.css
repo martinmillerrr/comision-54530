@@ -18,11 +18,15 @@ h2{
 }
 h1{
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 300;
+    font-weight: 500;
+    font-size: 5rem;
 }
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 100;
+    font-weight: 300;
+    font-weight: 500;
+    font-size: 2rem;
+
 }
 .Fondo-de-estadisticas{
     background-color: darkgrey;
@@ -30,4 +34,72 @@ h2{
 }
 .Fondo-de-Mimusica{
     background-color: darkgrey;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: black;
+}
+
+ul{
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: black;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.contenedor{
+    margin-bottom: 30px;
+}
+.contenedor-titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+.titulo-seccion{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.evil{
+    margin-top: 30px;
+    margin-left: 1rem;
+}
+.bfour{
+    margin-top: 30px;
+    margin-left: 1rem;
+}
+.esoteric{
+    margin-top: 30px;
+    margin-left: 1rem;
+}
+footer{
+    background-color: black;
+    height: 5rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.bodym{
+    @media screen and (min-width: 321px) and (max-width: 760px)
+    grid-template-columns: 15% auto;
+    grid-template-rows: 15% 10% auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    }
 }
