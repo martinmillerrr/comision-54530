@@ -1,105 +1,380 @@
-.body  {
-    background-image:url(../images/fondo\ de\ figma.jpg);
+.body {
+    background-image: url(../images/fondo\ de\ figma.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 4000%;
     background-attachment: fixed;
     background-size: cover;
 }
-.Fondo-de-subir{
-    background-color: darkgrey;
+
+.Fondo-de-subir {
+    background-image: url(https://images.unsplash.com/photo-1611305726065-357e6a91a369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-h2{
+
+h2 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
 }
-.Fondo-de-divisiones{
-    background-color: darkgrey;
+
+.Fondo-de-divisiones {
+    background-image: url(https://images.unsplash.com/photo-1611305726065-357e6a91a369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-h1{
+
+h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
-    font-size: 5rem;
+    font-size: 3rem;
 }
-h2{
+
+h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 300;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 20px;
+}
+
+.Fondo-de-estadisticas {
+    background-image: url(https://images.unsplash.com/photo-1611305726065-357e6a91a369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
-.Fondo-de-estadisticas{
-    background-color: darkgrey;
 
+.Fondo-de-Mimusica {
+    background-image: url(https://images.unsplash.com/photo-1611305726065-357e6a91a369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.Fondo-de-Mimusica{
-    background-color: darkgrey;
-}
-*{
+
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-.menu{
+
+.menu {
     background-color: black;
 }
 
-ul{
+ul {
     height: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center; 
+    align-items: center;
     background-color: black;
     list-style-type: none;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: aliceblue;
 }
-.contenedor{
+
+.contenedor {
     margin-bottom: 30px;
 }
-.contenedor-titulo{
+
+.contenedor-titulo {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
 
 }
-.titulo-seccion{
+
+.titulo-seccion {
     margin-top: 1rem;
     display: flex;
     justify-content: center;
 }
-.evil{
+
+.evil {
     margin-top: 30px;
     margin-left: 1rem;
 }
-.bfour{
+
+.bfour {
     margin-top: 30px;
     margin-left: 1rem;
 }
-.esoteric{
+
+.esoteric {
     margin-top: 30px;
     margin-left: 1rem;
 }
-footer{
+
+footer {
     background-color: black;
     height: 5rem;
     text-align: center;
     padding-top: 1rem;
 }
-.logos{
+
+.logos {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.bodym{
-    @media screen and (min-width: 321px) and (max-width: 760px)
-    grid-template-columns: 15% auto;
+
+.bodym {
+    @media screen and (min-width: 321px) and (max-width: 760px) grid-template-columns: 15% auto;
     grid-template-rows: 15% 10% auto;
     column-gap: 10px;
     row-gap: 10px;
+}
+
+.okey {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.yeah {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.go {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comeon {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.fu {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.wow {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.woah {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ja {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.um {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ouke {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.top {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.stage {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.hoe {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ou {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.uuu {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.bei {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.gas {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.fast {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.wtf {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.hearts {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.opa {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.new {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ots {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.shh {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.up {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.lok {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.col-md-4 {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.valid-feedback {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.input-group {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.invalid-feedback {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.col-md-6 {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.col-md-3 {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.col-12 {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .logos {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 1, 5rem;
+    }
+
+    .evil {
+        font-size: 2rem;
+    }
+
+    .estres {
+        width: 90%;
+        height: 70%;
+
+    }
+
+    .bfour {
+        font-size: 2rem;
+
+    }
+
+    .ok {
+        width: 90%;
+        height: 70%;
+    }
+
+    .esoteric {
+        font-size: 2rem;
+    }
+
+    .buss {
+        width: 90%;
+        height: 70%;
+
+    }
+
+    .divPadre {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
     }
 }
+@media (max-width: 768px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .lo{
+        display:grid;
+        grid-template-columns: auto;   
+
+    }
+    .woah{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .hoe{
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: x;
+    }
+    .form{
+        display: grid;
+        
+        column-gap: 50px;
+    }
+
