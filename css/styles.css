@@ -1,3 +1,9 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
 .body {
     background-image: url(../images/fondo\ de\ figma.jpg);
     background-repeat: no-repeat;
@@ -50,11 +56,7 @@ h2 {
     background-size: cover;
 }
 
-* {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
+
 
 .menu {
     background-color: black;
@@ -350,31 +352,38 @@ h1 {
         justify-content: center;
     }
 }
-@media (max-width: 768px){
-    h1{
+
+@media (max-width: 768px) {
+    h1 {
         font-size: 2rem;
     }
-    h2{
+
+    h2 {
         font-size: 1rem;
         margin-top: 1rem;
     }
-    .lo{
-        display:grid;
-        grid-template-columns: auto;   
+
+    .lo {
+        display: grid;
+        grid-template-columns: auto;
 
     }
-    .woah{
+
+    .woah {
         display: grid;
         grid-template-columns: auto;
     }
-    .hoe{
+
+    .hoe {
         display: grid;
         grid-template-columns: auto;
         column-gap: x;
     }
-    .form{
+
+    .form {
         display: grid;
-        
+
         column-gap: 50px;
     }
 
+}
