@@ -1,0 +1,82 @@
+.menu {
+  background-color: black;
+}
+.menu ul {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  list-style-type: none;
+}
+.menu ul nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.body {
+  background-image: url("../images/fondo de figma.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 4000%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contenedor {
+  margin-bottom: 30px;
+}
+.contenedor .contenedor-titulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.contenedor .contenedor-titulo h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 3rem;
+}
+.contenedor .contenedor-titulo h1 .titulo-seccion {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.contenedor .contenedor-titulo h1 .titulo-seccion h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+}
+.contenedor .contenedor-titulo h1 .titulo-seccion h2 .logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.evil {
+  margin-top: 30px;
+  margin-left: 1rem;
+}
+.evil .estres, .evil .esoteric .buss, .esoteric .evil .buss, .evil .bfour .ok, .bfour .evil .ok {
+  width: 90%;
+  height: 70%;
+}
+
+.bfour {
+  font-size: 2rem;
+}
+.esoteric {
+  font-size: 2rem;
+}
+footer {
+  background-color: black;
+  height: 5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+footer h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-weight: 500;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

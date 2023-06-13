@@ -1,0 +1,102 @@
+.menu {
+    background-color: $color-only;
+
+    ul {
+        height: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: $color-only;
+        list-style-type: none;
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+    }
+}
+
+.body {
+    background-image: url("../images/fondo de figma.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 4000%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contenedor {
+    margin-bottom: 30px;
+
+    .contenedor-titulo {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 500;
+            font-size: 3rem;
+
+            .titulo-seccion {
+                margin-top: 1rem;
+                display: flex;
+                justify-content: center;
+
+                h2 {
+                    font-family: 'Times New Roman', Times, serif;
+                    font-weight: 300;
+
+                    .logos {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.evil {
+    margin-top: 30px;
+    margin-left: 1rem;
+
+    .estres {
+        width: 90%;
+        height: 70%;
+    }
+}
+
+
+.bfour {
+    font-size: 2rem;
+
+    .ok {
+        @extend .estres
+    }
+}
+
+.esoteric {
+    font-size: 2rem;
+
+    .buss {
+        @extend .estres
+    }
+}
+
+footer {
+    background-color: black;
+    height: 5rem;
+    text-align: center;
+    padding-top: 1rem;
+
+    h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 300;
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
