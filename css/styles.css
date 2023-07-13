@@ -400,8 +400,9 @@ h1 {
         display: grid;
         column-gap: 50px;
     }
-    footer{ 
+
+    footer {
         font-size: 12px;
-     }
+    }
 
 }
